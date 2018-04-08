@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Senior Bot</title>
+    <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" src="Senior%20Bot_files/analytics_002.js"></script><script src="Senior%20Bot_files/196776730869680_002.js" async=""></script><script async="" src="Senior%20Bot_files/fbevents_002.js"></script><script async="" src="Senior%20Bot_files/gtm_002.js"></script><script src="Senior%20Bot_files/196776730869680.js" async=""></script><script async="" src="Senior%20Bot_files/fbevents.js"></script><script type="text/javascript" async="" src="Senior%20Bot_files/analytics.js"></script><script async="" src="Senior%20Bot_files/gtm.js"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MRPP8J');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Senior%20Bot_files/bootstrap.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Senior%20Bot_files/main.css">
+    <link rel="shortcut icon" href="https://bit.camp/favicon.ico">
+    <!-- PRELOAD HERO IMG -->
+  </head>
+  
+  <body>
+    <article class="page-body">      
+      <article class="hero">        
+        <div class="content">
+			<div class="info-text"><h2 class="section-heading">Senior Bot.</h2></div>
+            <img class="bigMax" src="Senior%20Bot_files/bigMax.gif" alt="">          
+		  <p></p>
+          <!--<a target="_blank" href="https://apply.bit.camp/" class="bp-btn orange lg">Go to the Bot! →</a>-->
+        </div>
+		
+		
+    <div id="bot" class="contentbot" style="visibility: hidden;">
+		 <iframe style='width:100%;height:100%;' frameborder='0' border='0' src='https://webchat.botframework.com/embed/seniorapp?s=Uo8nasfwLOc.cwA.J3o.9w1HwcK2TN7HjJnHq3rfjccAQQZleeZlNf27szBOsjM'></iframe>
+    </div>    
+
+	<!-- bot -->
+    <header>
+        <div id="overlay" class="container">
+            <div class="intro-text">                
+                <center>                    
+                        <a onclick="botCallback()" class="bp-btn orange lg">Click to start conversation</a>
+                    
+                </center>
+            </div>
+        </div>
+        <script>
+            function botCallback() {
+                var botID = document.getElementById("bot");                
+                if (botID.style.visibility === "hidden") {
+                    botID.style.visibility = "visible";  } 
+				else {
+                    botID.style.visibility = "hidden"; }
+            }
+        </script>
+    </header>	
+      </article>
+      <article class="intro dark">
+        <div class="container">         
+              <h5>What is Senior Bot?</h5>
+                Senior Bot is an interactive chat bot aims at helping senior citizens with simple e-tasks 
+				such as opening an email or Facebook account, or providing a brief description 
+				of current tech devices. The assistance can be in 
+				short answers or suggestion list. If the user requires more detailed assistance,
+				user can request to talk to near-by experts. The near-by experts are volunteers whose
+				basic profiles such as name, years of technical experiences and number of recent helping case are listed
+				for senior to come get help in person if needed. When the senior sends a request to meet the expert through
+				the chat box, a text will be sent to the expert's phone. The location from the senior 
+				to the expert is marked on an interactive map with GPS coordinate.
+              <p></p>
+              <h5>Acknowledgement</h5>
+                The program was developed using developer toolbox and libraries from Microsoft Azure 
+				(Bot Builder SDK, Custom Vision API), LUIS and ESRI. The front-page design
+				was adapted from https://bit.camp/, http://skyvr.azurewebsites.net/ and https://github.com/32nguyen   
+			<p></p>				
+          <div>
+            <h2>Our team</h2>
+<p></p>            
+          </div>
+          <div class="row">
+            <div class="col-content col-lg-3 col-md-6">
+              <img class="icon" src="Senior%20Bot_files/son.png" alt="">
+              <h4>Son Dinh</h4>
+                57dinh@cua.edu.
+              <p></p>
+            </div>
+            <div class="col-content col-lg-3 col-md-6">
+              <img class="icon" src="Senior%20Bot_files/peo.png" alt="">
+              <h4>Anh Thai</h4>
+                15thai@cua.edu.
+              <p></p>
+            </div>
+            <div class="col-content col-lg-3 col-md-6">
+              <img class="icon" src="Senior%20Bot_files/hanh.png" alt="">
+              <h4>Hanh N.D. Le</h4>
+                hanh.nd.le@gmail.com.
+              <p></p>
+            </div>
+            
+          </div>
+        </div>
+      </article>
+
+      &lt;
+    </article>
+    <script data-cfasync="false" src="Senior%20Bot_files/email-decode.js"></script><script src="Senior%20Bot_files/jquery-3.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="Senior%20Bot_files/main.js"></script>
+
+    <script type="text/javascript">
+  
+  ;(function($, win) {
+    $.fn.inViewport = function(cb) {
+       return this.each(function(i,el) {
+         function visPx(){
+           var elH = $(el).outerHeight(),
+               H = $(win).height(),
+               r = el.getBoundingClientRect(), t=r.top, b=r.bottom;
+           return cb.call(el, Math.max(0, t>0? Math.min(elH, H-t) : (b<H?b:H)));
+         }
+         visPx();
+         $(win).on("resize scroll", visPx);
+       });
+    };
+  }(jQuery, window));
+
+      $(document).ready(function() {
+        $(".trail").inViewport(function(px){
+          if(px) $(this).addClass("trail_visible");
+          // console.log("here!");
+        })
+      });
+    </script>
+  
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","196776730869680");fbq("set","agent","tmgoogletagmanager","196776730869680");fbq("track","PageView");</script>
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","196776730869680");fbq("set","agent","tmgoogletagmanager","196776730869680");fbq("track","PageView");</script>
+</body></html>

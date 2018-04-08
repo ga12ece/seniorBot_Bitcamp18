@@ -1,0 +1,27 @@
+{
+  "name": "QnABot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "botbuilder": "^3.13.1",
+    "botbuilder-azure": "^3.0.4",
+    "botbuilder-cognitiveservices": "^1.1.0",
+    "customvision-api": "0.0.2",
+    "needle": "^2.2.0",
+    "request-promise": "^4.2.2",
+    "restify": "^5.0.0",
+    "twilio": "^3.14.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "zip-folder": "^1.0.0"
+  }
+}
